@@ -1,0 +1,88 @@
+body {
+    background-color: gray;
+    font-family:  'Lucida sans', verdana, sans-serif;
+}
+
+#header {
+    background-color: brown;
+    text-align: center;
+    border: dashed;
+    padding: 10px;
+}
+
+#header h1 {
+    color: blue;
+}
+
+#header blockquote {
+    color: yellowgreen;
+}
+
+.menu ul li{
+    justify-content: center;
+    display: inline-block;
+    flex-direction: row;
+    list-style: none;
+    margin: 20px 0px 20px 10px;
+    gap: 10px;
+    padding: 5px 20px;
+    border: 1px solid white;
+    border-radius: 20px;
+    color: 
+}
+
+.gambar {
+    text-align: center; 
+}
+
+```css
+body {
+    background-color: #F5F5DD;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#header {
+    background-color: burlywood;
+    text-align: center;
+    padding: 10px;
+}
+
+#header h1 {
+    color: blue;
+}
+
+#header blockquote {
+    color: yellow;
+    border: 2px solid black;
+}
+
+.menu ul {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 10px;
+}
+
+.gambar {
+    text-align: center;
+}
+
+.bigger {
+    font-size: 20px;
+}
+
+.fp:first-letter {
+    font-size: 40px;
+    color: blue;
+}
+
+.koleksi {
+    text-align: center;
+}
+
+.koleksi img {
+    width: 20%;
+}
+
+
